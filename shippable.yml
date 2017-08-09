@@ -15,6 +15,7 @@ build:
     - echo "hello world"
     - echo JobTriggerByName="$JOB_TRIGGERED_BY_NAME"
     - echo JobTriggerById="$JOB_TRIGGERED_BY_ID"
-    - echo "version2 of runCI"
+    - echo "version3 of runCI cancelled"
+    - sleep 2m
     - echo "EOF!"    
     
